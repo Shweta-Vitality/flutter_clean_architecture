@@ -4,12 +4,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_clean_architecture/core/data/models/user_detail_model.dart';
-import 'package:flutter_clean_architecture/utils/Utils.dart';
+import 'package:flutter_clean_architecture/utils/utils.dart';
 
-import '../../../Injection.dart';
-import '../../../utils/Color.dart';
-import '../../../utils/FontSize.dart';
-import '../../../utils/StringConstants.dart';
+import '../../../injection.dart';
+import '../../../utils/color.dart';
+import '../../../utils/font_size.dart';
+import '../../../utils/string_constants.dart';
 import '../widgets/shimmer_text_widget.dart';
 import 'bloc/user_details_bloc.dart';
 

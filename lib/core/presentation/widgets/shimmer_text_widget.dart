@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../utils/Color.dart';
+import '../../../../utils/color.dart';
 
 class ShimmerTextWidget extends StatelessWidget {
   final double textFontHeight;
